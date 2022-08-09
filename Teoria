@@ -2,10 +2,19 @@
 Explica con tus palabras, las siguientes preguntas.
 
 - Que es un numero Natural?
+Cualquier número positivo sin parte decimal
 
 - Que es una estructura de datos?
+Forma de organizar la información de manera eficiente
 
 - Que es map(), reduce(), filter() y ForEacH() 
+Map: recibe una función callback y genera un arreglo con los resultados obtenidos al pasar un arreglo a la función
+Reduce:Ejecuta una función sobre un arreglo. Los resultados correspondientes a cada elemento se almacenan en un acumulador, cuyo valor total (suma de todas las iteraciones) es devuelto al final
+Filter: Crea un arreglo a partir de otro arreglo con los elementos que cumplen una determinada condición que define el programador.
+Foreach: Ejecuta una función una vez por cada elemento de un array
 
 - Explica una situacion en donde usarias cada una de las estructuras mencionadas anteriormente.
-
+Map: Lo usaría cuando tuviera que aplicar una función a un arreglo sin necesidad de escribir el bucle for
+Reduce: Para trabajar con arreglos numericos y obtener datos como promedio, suma total,etc
+Filter: Para buscar en un arreglo elementos que cumplen una condición
+Foreach: Al trabajr con objetos puedo recorrer los pares clave-valor sin necesidad de un bucle for()
