@@ -1,13 +1,25 @@
+// function esNatural(num) {
+//     // Devuelve true si el num es Natural
+//     // Usa Recursividad
+//     if (num===0) return true
+//     else if(num<0) return false
+//     return esNatural(num-1)
+// }
+// var rta
+// console.log(esNatural(3))
 function esNatural(num) {
     // Devuelve true si el num es Natural
     // Usa Recursividad
+    if (num===0) return true
+    else if(num<0) return false
+    return esNatural(num-1)
 }
-
+console.log("hola")
+esNatural(4)
 function Colores(colores) {
     // Aquellos colores negros cambiar su palabra a Black
     // Devuelve el arreglo
 }
-
 var colores = ['Blanco', 'Negros', 'Rojo', 'Amarillo', 'Negros', 'Verde']
 
 function Filtrado(colores) {
